@@ -1,0 +1,10 @@
+{
+  "name": "node-req-count",
+  "description": "Finish implementing the provided HTTP request handler",
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
