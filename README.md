@@ -30,6 +30,7 @@ After you complete each prompt, assign a grade to each item in the Grading Outli
 - [Complete] async-word-count
 - [Significant progress] node-req-count
 - [No time] sql-publisher-author-genre
+  // Only had time to read through `./sql-publisher-author-genre/README.md`
 
 
 ### Grading Scale
