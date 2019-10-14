@@ -3,6 +3,7 @@
  * Ex: absolute path: "/Users/bob/path/to/assessment/async-word-count/files/fileOne.txt"
        relative path: "./files/fileOne.txt
  * Check the documentation for node's `path.resolve`
+ * https://nodejs.org/docs/latest/api/path.html
  */
 
 const fs = require('fs');
@@ -21,7 +22,22 @@ const getWordCount = (filePath, callback) => {
 };
 
 const getTotalWordCount = (filePathOne, filePathTwo, callback) => {
-  // YOUR CODE HERE
+  filePathOne = path.resolve('./files/fileOne.txt');
+  filePathTwo = path.resolve('./files/fileTwo.txt');
+  let totalCount = 0;
+  getWordCount(filePathOne, (err, wordCount) => {
+    if(err){
+      callback(err, null)
+    }
+    totalCount += wordCount;
+    getWordCount(filePathTwo, (err, wordCount) => {
+      if(err){
+        callback(err, null);
+      }
+      totalCount += wordCount;
+      callback(null, totalCount);
+    })
+  })
 };
 
 

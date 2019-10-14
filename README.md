@@ -27,7 +27,7 @@ After you complete each prompt, assign a grade to each item in the Grading Outli
 
 ### Grading Outline
 
-- [ ] async-word-count
+- [Complete] async-word-count
 - [ ] node-req-count
 - [ ] sql-publisher-author-genre
 
