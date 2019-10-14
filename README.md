@@ -29,7 +29,7 @@ After you complete each prompt, assign a grade to each item in the Grading Outli
 
 - [Complete] async-word-count
 - [Significant progress] node-req-count
-- [ ] sql-publisher-author-genre
+- [No time] sql-publisher-author-genre
 
 
 ### Grading Scale
